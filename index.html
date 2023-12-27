@@ -371,18 +371,20 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: transparent;
         }
 
         .container {
             width: 50%;
+         
             margin: auto;
             overflow: hidden;
+            
         }
      
 
         #comment-box {
-            background-color: #f0f0f0;
+            background-color:#ffffff;
             margin: 20px 20px;
             padding: 20px 20px;
             border-radius: 20px;
@@ -425,8 +427,17 @@
         #subbtn
         {
          font-size: 15px;
+         display: block;
+         margin: auto;
+         padding: 9px;
+         border-radius: 30px;
+         background-color:transparent;
          font-weight:600;
          align-content: center;
+        }
+        #comment
+        {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     </style>
 
@@ -436,11 +447,20 @@
             <form id="comment-form">
                 <textarea id="comment" placeholder="Write your comment here..." rows="4"></textarea>
                 <br>
-                <input type="submit" id="subbtn" value="Submit Comment" onclick="">
+                <button id="subbtn" onclick="openPopup()">Submit Comment </button>
+                <script>
+                    function openPopup()
+                    {
+                      
+                      alert("ThankYou Your Response Have Been Saved.")
+                    }
+
+                </script>
             </form>
         </div>
     </div>
   </section>
+  
 </body>
     <footer>
       <nav>
