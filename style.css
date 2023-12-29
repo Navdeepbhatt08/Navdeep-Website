@@ -219,15 +219,17 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
+
   gap: 1rem;
+  font-weight: bold;
 }
 
 .btn {
-  font-weight: 600;
+  font-weight: 790;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
-  border-radius: 2rem;
+  width: 10rem;
+  border-radius: 4rem;
 }
 
 .btn-color-1,
