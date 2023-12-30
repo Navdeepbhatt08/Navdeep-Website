@@ -51,23 +51,47 @@
 
 
 @media screen and (max-width: 600px) {
-  #contact,
-  #profile {
+
+  #profile{
     height: 83vh;
     margin-bottom: 0;
   }
+ 
   article {
     font-size: 1rem;
   }
 
   .about-containers,
-  .contact-info-upper-container,
+  
   .btn-container {
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0;
+    margin: auto;
+    width: auto;
   }
+
+  .contact-info-upper-container
+  {
+    margin:10px;
+    padding: 20px;
+    width: auto;
+ display: flex;
+ justify-content: center;
+    overflow: hidden;
+    align-items: center;
+  
+  }
+  .contact-info-container
+  {
+    padding: 10px;
+    display: block;
+    margin: auto;
+   justify-content: center;
+   align-items: center;
+   width: 10%;
+  }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -97,4 +121,10 @@
   .text-container {
     text-align: justify;
   }
+footer p 
+{
+  font-size: 0.8rem;;
+}
+
+
 }

@@ -251,17 +251,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Music Player</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Navdeepbhatt08/Navdeep-s-Website'"
+                onclick="location.href='https://github.com/Navdeepbhatt08/Music-player-by-navdeep'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://navdeepbhatt08.github.io/Music-player-by-navdeep/'"
               >
                 Live Demo
               </button>
@@ -275,7 +275,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Live Notifications</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -299,7 +299,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Zomato Clone</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -344,6 +344,14 @@
           />
           <p><a href="https://www.linkedin.com/in/navdeepbhatt08/" target="_blank">LinkedIn</a></p>
         </div>
+        <div class="contact-info-container">
+          <img
+            src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_instagram-512.png"
+            alt="Insta icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/navdeepbhatt.08/" target="_blank">Instagram</a></p>
+        </div>
 <div class="contact-info-container">
           <img
             src="./assets/twitter.png"
@@ -353,102 +361,111 @@
           <p><a href="https://twitter.com/NavdeepBhatt08" target="_blank">Twitter</a></p>
         </div>
       </div>
-  
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: transparent;
-        }
-
-        .container {
-            width: 50%;
-         
-            margin: auto;
-            overflow: hidden;
-            
-        }
-     
-
-        #comment-box {
-            background-color:#ffffff;
-            margin: 20px 20px;
-            padding: 20px 20px;
-            border-radius: 20px;
-        }
-
-        #comment-form {
-            margin: 20px;
-        }
-
-        #comment-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-
-        #comment-form input[type="submit"] {
-            padding: 10px 15px;
-            margin: auto;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            border-radius: 10px;
-        }
-
-        #comments {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        .comment p {
-            margin: 0;
-        }
-    
-        @media (max-width: 600px) {
-          .container {
-              width: 100%; 
-          }
-        }
-        #subbtn
-        {
-         font-size: 15px;
-         display: block;
-         margin: auto;
-         padding: 9px;
-         border-radius: 30px;
-         background-color:transparent;
-         font-weight:600;
-         align-content: center;
-        }
-        #comment
-        {
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    </style>
-
-    <div class="container">
-        <div id="comment-box">
-            <h2>Leave a Comment</h2>
-            <form id="comment-form">
-                <textarea id="comment" placeholder="Write your comment here..." rows="4"></textarea>
-                <br>
-                <button id="subbtn" onclick="openPopup()">Submit Comment </button>
-                <script>
-                    function openPopup()
-                    {
-                      
-                      alert("ThankYou Your Response Have Been Saved.")
-                    }
-
-                </script>
-            </form>
-        </div>
-    </div>
   </section>
-  
+
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+    }
+    .container {
+        margin: auto;
+        overflow: hidden;  
+        width: 500px;
+    }
+ 
+
+    #comment-box {
+        background-color:transparent;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        border-radius: 20px;
+        border: 2px solid rgba(0, 0, 0, 0.329);
+    }
+    #comment-box h2{
+      text-align: center;
+    }
+
+    #comment-form {
+        margin: 20px;
+    }
+
+    #comment-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #comment-form input[type="submit"] {
+        padding: 10px 15px;
+        margin: auto;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #comments {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .comment p {
+        margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+          width: 100%; 
+         
+      }
+    }
+    #subbtn
+    {
+     font-size: 15px;
+   display: block;
+     padding: 9px;
+     border-radius: 30px;
+     background-color:transparent;
+     font-weight:600;
+     align-content: center;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    }
+    #comment
+    {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+</style>
+<div class="container">
+    <div id="comment-box">
+        <h2>Leave a Comment</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Write your comment here..." rows="2"></textarea>
+            <br>
+            <button id="subbtn" onclick="openPopup()">Submit Comment </button>
+            <script>
+                function openPopup()
+                {
+                  
+                  alert("ThankYou Your Response Have Been Saved.")
+                }
+
+            </script>
+        </form>
+    </div>
+</div>
+
+
 </body>
     <footer>
       <nav>
