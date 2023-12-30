@@ -66,20 +66,24 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: auto;
+    margin: 0px auto;
     width: auto;
   }
-
+  .contact-info-container a
+  {
+  font-weight: 600;  
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  }
   .contact-info-upper-container
   {
-    margin:10px;
-    padding: 20px;
-    width: auto;
- display: flex;
- justify-content: center;
-    overflow: hidden;
+    display: flex;
     align-items: center;
-  
+    justify-content: center;
+    height: 70px; 
+    width: 80%;
+    overflow: hidden;
   }
   .contact-info-container
   {
