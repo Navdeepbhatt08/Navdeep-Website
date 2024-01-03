@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+
     <nav id="desktop-nav">
       <div class="logo">Navdeep Bhatt</div>
       <div>
@@ -43,7 +44,17 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Navdeep Bhatt</h1>
-        <p class="section__text__p2">Web Developer</p>
+        <p class="section__text__p2">
+          <span id="element"></span>
+        </p>
+      
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+    var typed = new Typed('#element', {
+      strings: ['Programmer', 'Web Developer','Android Developer','Graphic Designer'],
+      typeSpeed: 120,
+    });
+  </script>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
