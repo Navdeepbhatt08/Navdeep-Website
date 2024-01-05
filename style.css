@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+  background: linear-gradient(#577aaf58 0%, #496acd 49%, #3c37bc75 100%);
 }
 
 html {
@@ -32,6 +32,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+ 
 }
 
 nav {
