@@ -40,7 +40,10 @@ nav {
   align-items: center;
   height: 17vh;
 }
-
+nav .logo img
+{
+ height: 140px;
+}
 .nav-links {
   gap: 2rem;
   list-style: none;

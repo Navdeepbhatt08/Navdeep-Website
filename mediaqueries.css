@@ -46,6 +46,10 @@
   .about-containers {
     margin-top: 0;
   }
+  nav .logo img
+{
+ height: 120px;
+}
 }
 
 
@@ -55,7 +59,10 @@
     height: 83vh;
     margin-bottom: 0;
   }
- 
+  nav .logo img
+  {
+   height: 98px;
+  }
   article {
     font-size: 1rem;
   }
@@ -81,7 +88,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7_0px; 
+    height: 70px; 
     width: 80%;
     overflow: hidden;
   }
