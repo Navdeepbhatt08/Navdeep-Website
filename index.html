@@ -88,8 +88,8 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1 style="padding: 10px;">Get To Know More</p>
+      <h1 class="title" style="padding: 20px;">About Me</h1>
       <div class="section-container">
         
         <div class="about-details-container">
@@ -386,110 +386,6 @@
         </div>
       </div>
   </section>
-
-
-  <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-    }
-    .container {
-        margin: auto;
-        overflow: hidden;  
-        width: 500px;
-    }
- 
-
-    #comment-box {
-        background-color:transparent;
-        margin: 20px 20px;
-        padding: 20px 20px;
-        border-radius: 20px;
-        border: 2px solid rgba(0, 0, 0, 0.329);
-    }
-    #comment-box h2{
-      text-align: center;
-    }
-
-    #comment-form {
-        margin: 20px;
-    }
-
-    #comment-form textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    #comment-form input[type="submit"] {
-        padding: 10px 15px;
-        margin: auto;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-
-    #comments {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    .comment p {
-        margin: 0;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-          width: 100%; 
-         
-      }
-    }
-    #subbtn
-    {
-     font-size: 15px;
-   display: block;
-     padding: 9px;
-     border-radius: 30px;
-     background-color:transparent;
-     font-weight:600;
-     align-content: center;
-    margin: auto;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    }
-    #comment
-    {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 7px;
-    }
-</style>
-<div class="container">
-    <div id="comment-box">
-        <h2>Leave a Comment</h2>
-        <form id="comment-form">
-            <textarea id="comment" placeholder="Write your comment here..." rows="2"></textarea>
-            <br>
-            <button id="subbtn" onclick="openPopup()">Submit Comment </button>
-            <script>
-                function openPopup()
-                {
-                  
-                  alert("ThankYou Your Response Have Been Saved.")
-                }
-
-            </script>
-        </form>
-    </div>
-</div>
-
-
 </body>
     <footer>
       <nav>
