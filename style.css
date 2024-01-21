@@ -436,13 +436,22 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  background-color: rgb(32, 8, 58);
+
+
 }
-footer .nav-links {
+footer .nav-links a{
   font-weight: 600;
+  color: rgb(255, 255, 255);
+  
+}
+footer a:hover{
+
+  color: rgb(188, 188, 188);
 }
 
 footer p {
   text-align: center;
   font-size: 1rem;
+  color: white;
 }
