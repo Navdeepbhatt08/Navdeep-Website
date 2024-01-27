@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(#5785ccc2 0%, #496acd 49%, #3c37bc75 100%);
+  background: linear-gradient(#b27de7c2 0%, #496acd 49%, #3c37bc75 100%);
 }
 
 html {
@@ -286,16 +286,19 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
+ 
   justify-content: center;
 }
 
@@ -312,6 +315,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
+ 
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -322,6 +326,8 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+ 
+
 }
 
 .section__pic-container {
@@ -344,7 +350,7 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
+  display: block;
   justify-content: center;
   flex-direction: column;
 }
