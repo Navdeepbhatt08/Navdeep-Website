@@ -118,8 +118,8 @@
     padding: 0 20px;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 230px;
+    height: 230px;
     justify-content: center;
   }
   .section__text__p2 {
