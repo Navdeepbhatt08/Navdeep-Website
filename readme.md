@@ -1,5 +1,5 @@
-#This is My Portfolio Website.
+# This is My Portfolio Website.
 
-1 . Created with Pure Html, Css, Js.
+### Created with Pure Html, Css, Js.
 
-Author - Navdeep BHatt
+## Author - Navdeep BHatt
