@@ -113,13 +113,13 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
     text-align: center;
+    font-size: 0.2rem;
+    padding: 0 20px;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 230px;
+    height: 230px;
     justify-content: center;
   }
   .section__text__p2 {
@@ -133,8 +133,8 @@
   }
 footer p 
 {
-  font-size: 0.8rem;;
+  font-size: 0.7rem;
+  padding: 0 20px;
 }
-
 
 }
