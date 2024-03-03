@@ -13,8 +13,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.text-container #new-p
-{
+
+.text-container #new-p {
   color: rgb(38, 37, 37);
 }
 
@@ -34,7 +34,7 @@ a,
 nav,
 .nav-links {
   display: flex;
- 
+
 }
 
 nav {
@@ -42,10 +42,11 @@ nav {
   align-items: center;
   height: 17vh;
 }
-nav .logo img
-{
- height: 140px;
+
+nav .logo img {
+  height: 140px;
 }
+
 .nav-links {
   gap: 2rem;
   list-style: none;
@@ -244,11 +245,11 @@ section {
   border-radius: 4rem;
 }
 
-.btn-color-1
-{
+.btn-color-1 {
   border: rgb(255, 255, 255) 0.1rem solid;
 
 }
+
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
@@ -299,13 +300,13 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  
+
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
- 
+
   justify-content: center;
 }
 
@@ -322,7 +323,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
- 
+
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -333,7 +334,7 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
- 
+
 
 }
 
@@ -410,8 +411,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-.project-btn:hover
-{
+.project-btn:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(217, 217, 217);
   border-color: black;
@@ -458,23 +458,30 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  background-color: rgb(32, 8, 58);
-
+  height: 22vh;
+  background-color: rgb(39, 9, 71);
+  padding-bottom: 20px;
 
 }
-footer .nav-links a{
-  font-weight: 600;
+
+.footer-nav {
+  height: 16vh;
+}
+
+footer .nav-links a {
+  font-weight: 500;
   color: rgb(255, 255, 255);
-  
 }
-footer a:hover{
+
+footer a:hover {
 
   color: rgb(188, 188, 188);
+
 }
 
 footer p {
   text-align: center;
   font-size: 1rem;
   color: white;
+  padding-bottom: 20px;
 }

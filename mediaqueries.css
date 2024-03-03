@@ -7,6 +7,7 @@
   .about-containers {
     flex-wrap: wrap;
   }
+
   #contact,
   #projects {
     height: fit-content;
@@ -17,124 +18,151 @@
   #desktop-nav {
     display: none;
   }
+
   #hamburger-nav {
     display: flex;
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
   }
+
   .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
   .about-containers {
     margin-top: 0;
   }
-  nav .logo img
-{
- height: 120px;
-}
+
+  nav .logo img {
+    height: 120px;
+  }
 }
 
 
 @media screen and (max-width: 600px) {
 
-  #profile{
+  #profile {
     height: 83vh;
     margin-bottom: 0;
   }
-  nav .logo img
-  {
-   height: 98px;
+
+  nav .logo img {
+    height: 98px;
   }
+
   article {
     font-size: 1rem;
   }
 
   .about-containers,
-  
+
   .btn-container {
     flex-wrap: wrap;
   }
+
   .contact-info-container {
     margin: 0px auto;
     width: auto;
   }
-  .contact-info-container a
-  {
-  font-weight: 600;  
-  display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .contact-info-upper-container
-  {
+
+  .contact-info-container a {
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px; 
+  }
+
+  .contact-info-upper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
     width: 80%;
     overflow: hidden;
   }
-  .contact-info-container
-  {
+
+  .contact-info-container {
     padding: 10px;
     display: block;
     margin: auto;
-   justify-content: center;
-   align-items: center;
-   width: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
   }
 
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     text-align: center;
     font-size: 0.2rem;
     padding: 0 20px;
   }
+
   .section__pic-container {
     width: 230px;
     height: 230px;
     justify-content: center;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
   }
-footer p 
-{
-  font-size: 0.7rem;
-  padding: 0 20px;
-}
+
+  footer p {
+    font-size: 0.7rem;
+    padding: 0 20px;
+  }
+
+
+  footer {
+    height: 18vh;
+
+  }
+
+  .footer-nav {
+    height: 13vh;
+  }
 
 }
