@@ -2,4 +2,4 @@
 
 ### Created with Pure Html, Css, Js.
 
-## Author - Navdeep BHatt
+## Author - Navdeep Bhatt
