@@ -396,7 +396,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 15px;
   width: 90%;
   height: 90%;
 }
