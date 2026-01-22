@@ -9,6 +9,73 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- WhatsApp Floating Button -->
+<a
+  href="https://wa.me/8445636509"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+  />
+</a>
+
+<style>
+  .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  animation: bounce 2s infinite;
+  animation: bounce 2s infinite, pulse 1.5s infinite;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 55px;
+  height: 55px;
+}
+
+.whatsapp-float:hover {
+  animation-play-state: paused;
+  transform: scale(1.1);
+}
+
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-35px);
+  }
+  60% {
+    transform: translateY(-18px);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+</style>
     <nav id="desktop-nav">
       <div class="logo"><img src="./assets/logo.png"></div>
       <div>
@@ -111,7 +178,7 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>BCA (Bachelors Degree)</p>
+              <p>MCA (Masters Degree)</p>
             </div>
           </div>
           <div class="text-container">
@@ -353,6 +420,14 @@
       </nav>
       <p>Copyright &#169; 2023 Navdeep Bhatt. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js">
+
+    
+  document.querySelector(".whatsapp-float").addEventListener("click", () => {
+    console.log("WhatsApp button clicked");
+  });
+
+
+    </script>
   </body>
 </html>
