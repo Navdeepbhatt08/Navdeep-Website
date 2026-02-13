@@ -253,7 +253,7 @@ section {
 }
 
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(38, 30, 178) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -263,7 +263,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(155, 148, 148);
   color: white;
 }
 
@@ -273,6 +273,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
 
 }
+
 
 .btn-color-2 {
   background: none;
@@ -421,6 +422,7 @@ article .icon {
 
 /* CONTACT */
 
+
 #contact {
   display: flex;
   justify-content: center;
@@ -449,6 +451,10 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
+}
+
+.contact-icon:hover {
+  transform: translateY(-5px);
 }
 
 .contact-icon {
@@ -488,7 +494,7 @@ footer p {
   padding-bottom: 20px;
 }
 
-  .whatsapp-float {
+.whatsapp-float {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -518,25 +524,75 @@ footer p {
 
 /* Bounce Animation */
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-35px);
   }
+
   60% {
     transform: translateY(-18px);
   }
 }
+
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
   }
+
   70% {
     box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
   }
+
   100% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
 }
 
+.stats-section {
+  width: 80%;
+  text-align: center;
+  padding: 40px 0;
+  gap: 10px;
+}
+
+.stats-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
