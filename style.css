@@ -263,7 +263,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(155, 148, 148);
+  background: rgb(0, 0, 0);
   color: white;
 }
 
@@ -598,11 +598,25 @@ footer p {
 }
 
 @keyframes swing {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(5deg); }
-  50% { transform: rotate(-5deg); }
-  75% { transform: rotate(3deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .hover-swing:hover {
